@@ -1,0 +1,42 @@
+body{
+  margin: 0px;
+  display: grid;
+  justify-items: center;
+}
+.banner{
+  width: 100%;
+  box-sizing: border-box;
+}
+.menu_container{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(58, 12, 163);
+  align-items: center;
+}
+.menu_principal, .menu_redes{
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  gap: 20px;
+}
+.item_menu{
+  display: inline-block;
+  padding: 15px 30px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+.item_menu:hover{
+  background-color: rgb(46, 9, 133);
+}
+.item_menu.active{
+  background-color: blueviolet;
+}
+.rede_social{
+  max-width: 80%;
+  display: inline-block;
+}
